@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(245, 245, 245);
+}
+
+img {
+  padding: 25px;
+  border-radius: 50%;
+  width: auto;
+  height: 200px; 
+}
+
+li{
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h1 {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+.github-info {
+  list-style: none;
+  padding: 25px;
+  width: 1000px;
+  font-size: 15px;
+
+}
+.location {
+  padding: 0px;
+  font-size: 15px;
+
+}
+.github-url {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.github-repos {
+  padding: 25px;
+  background-color: lightgray;
+  
+}
